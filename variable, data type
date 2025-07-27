@@ -1,0 +1,44 @@
+using System;
+
+class Program // variable, data type
+{
+    static void Main()
+    {
+        // 정수형 (int)
+        int age = 25;
+        Console.WriteLine("int: 나이는 " + age + "세입니다.");
+
+        // 실수형 (double)
+        double pi = 3.14159;
+        Console.WriteLine("double: 원주율은 " + pi);
+
+        // 실수형 (float) - f 접미사 필수
+        float height = 175.5f;
+        Console.WriteLine("float: 키는 " + height + "cm입니다.");
+
+        // 고정 소수점 (decimal) - m 접미사 필수
+        decimal salary = 3500000.75m;
+        Console.WriteLine("decimal: 월급은 " + salary + "원입니다.");
+
+        // 불리언 (bool)
+        bool isStudent = true;
+        Console.WriteLine("bool: 학생인가요? " + isStudent);
+
+        // 문자형 (char)
+        char grade = 'A';
+        Console.WriteLine("char: 학점은 " + grade);
+
+        // 문자열 (string)
+        string name = "홍길동";
+        Console.WriteLine("string: 이름은 " + name);
+
+        // var (자동 타입 추론)
+        var city = "서울";
+        var temperature = 29.3;
+        Console.WriteLine("var: 도시 - " + city + ", 온도 - " + temperature + "도");
+
+        // 상수 (const)
+        const double gravity = 9.81;
+        Console.WriteLine("const: 중력가속도는 " + gravity + " m/s²");
+    }
+}
