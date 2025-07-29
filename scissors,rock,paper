@@ -1,0 +1,15 @@
+using System;
+//1~10까지 숫자중 홀수만 나타내기
+class Program
+{
+    static void Main()
+    {
+        for (int i = 1; i <= 10; i++)
+        {
+            if (i % 2 != 0)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+}
