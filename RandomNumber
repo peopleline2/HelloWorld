@@ -1,0 +1,17 @@
+namespace _20250731
+{
+    class randomNumber
+    {
+        static void Main()
+        {
+            Random random = new Random();
+            
+            for (int i = 0; i < 7; i++)
+            {
+                Console.Write($"{random.Next(1, 49)} ");
+            }
+
+            Console.WriteLine();
+        }
+    }
+}
